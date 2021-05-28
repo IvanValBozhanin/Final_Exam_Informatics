@@ -19,9 +19,8 @@ public class Main {
         printItemsWithIterator();
         System.out.println();
 
-        printItemsWithPQFunction();
+        printItemsWithPriorityQueueFunction();
         System.out.println();
-
 
         testGenericMethodForSorting();
         System.out.println();
@@ -73,7 +72,7 @@ public class Main {
         }
     }
 
-    public static void printItemsWithPQFunction() {
+    public static void printItemsWithPriorityQueueFunction() {
         System.out.println("Printed using poll function of Priority Queue:");
         while(!priorityQueue.isEmpty()){
             System.out.println(priorityQueue.poll().toString());
